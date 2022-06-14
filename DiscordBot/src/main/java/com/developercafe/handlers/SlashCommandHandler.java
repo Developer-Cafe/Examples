@@ -22,6 +22,7 @@ public class SlashCommandHandler extends ListenerAdapter {
                         .build();
                 event.deferReply(false).addEmbeds(embed).queue();
             }
+
         }
     }
 }

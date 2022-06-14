@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0498478-bc3f-4ecf-b667-d1e1734c79d7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscordBot.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/developercafe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/developercafe/Main.java" afterDir="false" />
-    </list>
-    <list id="d6657c3b-e4a5-493b-a2a3-732d017ee3de" name="Changes by Tom Handrick :P" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/developercafe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/developercafe/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/developercafe/files/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/developercafe/files/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/developercafe/handlers/SlashCommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/developercafe/handlers/SlashCommandHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/developercafe/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/developercafe/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/developercafe/files/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/developercafe/files/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/developercafe/handlers/SlashCommandHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/developercafe/handlers/SlashCommandHandler.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,15 +29,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/main/java/com/developercafe/Main.java">
-      <ranges>
-        <range start1="2" end1="2" start2="2" end2="17" changelist="b0498478-bc3f-4ecf-b667-d1e1734c79d7" />
-        <range start1="3" end1="5" start2="18" end2="40" changelist="b0498478-bc3f-4ecf-b667-d1e1734c79d7" />
-        <range start1="6" end1="6" start2="41" end2="45" changelist="d6657c3b-e4a5-493b-a2a3-732d017ee3de" />
-      </ranges>
-    </file>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -47,15 +38,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "last_opened_file_path": "C:/Users/janti/Documents/GitHub/Examples/DiscordBot"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/janti/Documents/GitHub/Examples/DiscordBot&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.developercafe.handlers" />
@@ -90,11 +82,24 @@
       <option name="presentableId" value="Default" />
       <updated>1655105167714</updated>
       <workItem from="1655105168836" duration="26000" />
-      <workItem from="1655105220601" duration="7702000" />
+      <workItem from="1655105220601" duration="8460000" />
+      <workItem from="1655180528016" duration="3148000" />
+      <workItem from="1655196453579" duration="934000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

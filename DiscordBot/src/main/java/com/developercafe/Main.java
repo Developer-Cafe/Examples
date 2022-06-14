@@ -1,6 +1,8 @@
 package com.developercafe;
 
 import com.developercafe.files.Config;
+import com.developercafe.handlers.ButtonInteractionHandler;
+import com.developercafe.handlers.JoinLeaveHandler;
 import com.developercafe.handlers.SlashCommandHandler;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
@@ -33,10 +35,13 @@ public class Main {
                 .setStatus(OnlineStatus.ONLINE)
                 .setActivity(Activity.playing("Made with \u2764\uFE0F"))
                 .addEventListeners(new SlashCommandHandler())
+                .addEventListeners(new ButtonInteractionHandler())
+                .addEventListeners(new JoinLeaveHandler())
                 .build();
         CommandListUpdateAction commands = bot.updateCommands();
         commands.addCommands(
-                Commands.slash("github", "github link")
+                Commands.slash("github", "github link"),
+                Commands.slash("test", "macht alles oder nichts")
         ).queue();
     }
 
